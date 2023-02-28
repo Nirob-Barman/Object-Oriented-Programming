@@ -1,12 +1,13 @@
 /**
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
 class myClass
 {
-    ///private to myClass
+    /// private to myClass
     int a;
+
 public:
     void set_a(int number)
     {
@@ -28,7 +29,7 @@ int main()
     objectOne.set_a(10);
     objectTwo.set_a(99);
 
-    cout<<objectOne.get_a()<<endl;
-    cout<<objectTwo.get_a()<<endl;
+    cout << objectOne.get_a() << endl;
+    cout << objectTwo.get_a() << endl;
 }
 **/
