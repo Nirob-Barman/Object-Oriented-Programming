@@ -1,37 +1,39 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
-class ABC;   ///forward declaration
+class ABC; /// forward declaration
 
 class XYZ
 {
     int x;
+
 public:
     void setValue(int value)
     {
         x = value;
     }
-    friend void maxValue(XYZ,ABC);
+    friend void maxValue(XYZ, ABC);
 };
 
-class ABC   ///forward declaration
+class ABC /// forward declaration
 {
     int a;
+
 public:
     void setValue(int value)
     {
         a = value;
     }
-    friend void maxValue(XYZ,ABC);
+    friend void maxValue(XYZ, ABC);
 };
 
-void maxValue(XYZ m,ABC n)  ///definition of friend
+void maxValue(XYZ m, ABC n) /// definition of friend
 {
-    if(m.x>n.a)
-        cout<<"The max value is : "<<m.x<<endl;
+    if (m.x > n.a)
+        cout << "The max value is : " << m.x << endl;
     else
-        cout<<"The max value is : "<<n.a<<endl;
+        cout << "The max value is : " << n.a << endl;
 }
 
 int main()
@@ -42,5 +44,5 @@ int main()
     XYZ xyz;
     xyz.setValue(20);
 
-    maxValue(xyz,abc);
+    maxValue(xyz, abc);
 }
