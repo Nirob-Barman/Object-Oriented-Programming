@@ -6,10 +6,12 @@ char f(unsigned char ch)
 {
     return ch-1;
 }
+
 char f(char ch)
 {
     return ch+1;
 }
+
 int main()
 {
     cout<<f('c')<<endl;     ///Error, ambiguous!

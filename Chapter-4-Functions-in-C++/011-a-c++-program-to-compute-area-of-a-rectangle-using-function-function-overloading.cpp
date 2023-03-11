@@ -6,6 +6,7 @@ double rectangleArea(double length, double width)
 {
     return length*width;
 }
+
 double rectangleArea(double length)
 {
     return length*length;
