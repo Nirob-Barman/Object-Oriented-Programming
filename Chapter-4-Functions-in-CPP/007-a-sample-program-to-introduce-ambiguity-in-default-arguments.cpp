@@ -1,19 +1,19 @@
-#include<iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-int func(int i)
+int multiply(int a, int b)
 {
-    return i;
+    return a * b;
 }
 
-int func(int i,int j)
+int multiply(int x)
 {
-    return i*j;
+    return x;
 }
 
 int main()
 {
-    cout<<func(4,5)<<endl;  ///unambiguous
-    cout<<func(40)<<endl;   ///Error, ,ambiguous
+    cout << multiply(4, 5) << endl; /// unambiguous
+    cout << multiply(40) << endl;   /// Error, ,ambiguous
 }

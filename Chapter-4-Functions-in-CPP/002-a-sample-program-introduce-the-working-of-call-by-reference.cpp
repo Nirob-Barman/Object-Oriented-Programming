@@ -1,19 +1,24 @@
-#include<iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-void swapValues(int &a,int &b)
+void swapValues(int &x, int &y)
 {
-    int temp = a;
-    a = b;
-    b = temp;
-    cout<<"Value of a and b in the function: "<<a<<" "<<b<<endl;
+    int temp = x;
+    x = y;
+    y = temp;
+    cout << "Value of x and y in the function: " << x << " " << y << endl;
 }
 
 int main()
 {
-    int a = 5, b = 7;
-    cout<<"Value of a and b in main function before swap: "<<a<<" "<<b<<endl;
-    swapValues(a,b);
-    cout<<"Value of a and b in main function after swap: "<<a<<" "<<b<<endl;
+    int x = 5, y = 7;
+    cout << "Value of x and y in main function before swap: " << x << " " << y << endl;
+    swapValues(x, y);
+    cout << "Value of x and y in main function after swap: " << x << " " << y << endl;
 }
+
+// output
+// Value of x and y in main function before swap: 5 7
+// Value of x and y in the function: 7 5
+// Value of x and y in main function after swap: 7 5

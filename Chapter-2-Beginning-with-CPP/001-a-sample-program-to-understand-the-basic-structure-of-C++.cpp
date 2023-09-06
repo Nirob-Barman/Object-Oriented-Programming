@@ -1,30 +1,39 @@
-#include <iostream>
+#include <bits/stdc++.h> // preprocessor directive
 
 using namespace std;
 
-class employee
+class Employee // class declaration
 {
 private:
-    char empname[50];
-    int empno;
+    char employeeName[50];
+    int employeeNumber;
 
 public:
-    void getvalue()
+    void getValue()
     {
         cout << "Input Employee Name: ";
-        cin >> empname;
+        cin >> employeeName;
         cout << "Input Employee Number: ";
-        cin >> empno;
+        cin >> employeeNumber;
     }
     void displayValue()
     {
-        cout << "Employee Name: " << empname << endl;
-        cout << "Employee Number: " << empno << endl;
+        cout << "Employee Name: " << employeeName << endl;
+        cout << "Employee Number: " << employeeNumber << endl;
     }
 };
+
 int main()
 {
-    employee object;
-    object.getvalue();
+    Employee object;
+    object.getValue();
     object.displayValue();
 }
+
+// input
+// Input Employee Name : John
+// Input Employee Number : 34
+
+// output
+// Employee Name: John
+// Employee Number: 34

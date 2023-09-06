@@ -1,19 +1,21 @@
-#include<iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-float func(float i)
+float myFunc(float value)
 {
-    return i;
+    return value;
 }
 
-double func(double i)
+double myFunc(double value)
 {
-    return -i;
+    return -value;
 }
 
 int main()
 {
-    cout<<func(10.1)<<endl;     ///unambiguous calls(double)
-    cout<<func(10)<<endl;       ///ambiguous
+    cout << myFunc(10.1) << endl; /// unambiguous calls(double)
+    cout << myFunc(10) << endl;   /// ambiguous
+
+    return 0;
 }

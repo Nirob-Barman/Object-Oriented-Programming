@@ -1,7 +1,7 @@
 /**
 compute area of a rectangle using default arguments
 **/
-#include<iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -19,3 +19,7 @@ int main()
     cout<<"10 x 10 rectangle has area : ";
     cout<<rectangleArea(10.0)<<endl;
 }
+
+// output
+// 10 x 5.8 rectangle has area : 58
+// 10 x 10 rectangle has area : 100

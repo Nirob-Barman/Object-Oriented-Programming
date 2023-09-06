@@ -1,19 +1,21 @@
-#include<iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-char f(unsigned char ch)
+char myFunc(unsigned char value)
 {
-    return ch-1;
+    return value - 1;
 }
 
-char f(char ch)
+char myFunc(char value)
 {
-    return ch+1;
+    return value + 1;
 }
 
 int main()
 {
-    cout<<f('c')<<endl;     ///Error, ambiguous!
-    cout<<f(88)<<endl;
+    cout << myFunc('c') << endl; /// Error, ambiguous!
+    cout << myFunc(88) << endl;
+
+    return 0;
 }

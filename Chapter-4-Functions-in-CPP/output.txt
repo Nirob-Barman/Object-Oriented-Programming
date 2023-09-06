@@ -1,0 +1,2 @@
+10 x 5.8 rectangle has area: 58
+10 x 10 square has area: 100

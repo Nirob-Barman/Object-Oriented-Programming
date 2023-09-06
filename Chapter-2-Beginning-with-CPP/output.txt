@@ -1,0 +1,5 @@
+Enter the current year then press RETURN.
+Enter your current age in years.
+Enter the year for which you wish to know your age.
+
+Your age in 1999:2

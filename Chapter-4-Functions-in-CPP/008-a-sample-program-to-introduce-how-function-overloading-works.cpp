@@ -1,23 +1,30 @@
-#include<iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-int volume(int s)   ///cube
+int volume(int side) /// cube
 {
-    return s*s*s;
+    return side * side * side;
 }
-double volume(double r, int h)  ///cylinder
+
+double volume(double radius, int height) /// cylinder
 {
-    return (3.14159*r*r*h);
+    return (3.14159 * radius * radius * height);
 }
-long volume(long l, int b, int h)   ///rectangular box
+
+long volume(long length, int breadth, int height) /// rectangular box
 {
-    return (l*b*h);
+    return (length * breadth * height);
 }
 
 int main()
 {
-    cout<<volume(10)<<endl;
-    cout<<volume(2.5,8)<<endl;
-    cout<<volume(101,75,15)<<endl;
+    cout << volume(10) << endl;
+    cout << volume(2.5, 8) << endl;
+    cout << volume(101, 75, 15) << endl;
 }
+
+// output
+// 1000
+// 157.079
+// 113625
