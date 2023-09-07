@@ -1,3 +1,4 @@
+// 002 an example of c++ program
 #include <bits/stdc++.h>
 
 using namespace std;
