@@ -1,4 +1,5 @@
-#include <iostream>
+// a sample program to introduce returning objects
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -23,6 +24,7 @@ complexNumber sum(complexNumber one, complexNumber two)
     add.y = one.y + two.y;
     return add;
 }
+
 void complexNumber::showComplexNumber(complexNumber c)
 {
     cout << c.x << " + " << c.y << "j" << endl;
@@ -42,3 +44,8 @@ int main()
     cout << "C = ";
     C.showComplexNumber(C);
 }
+
+// output
+// A = 3.1 + 5.65j
+// B = 2.75 + 1.2j
+// C = 5.85 + 6.85j

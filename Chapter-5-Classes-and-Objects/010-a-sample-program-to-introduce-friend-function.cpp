@@ -1,4 +1,5 @@
-#include <iostream>
+// a sample program to introduce friend function
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -27,3 +28,6 @@ int main()
     X.setValue();
     cout << "Mean value : " << mean(X) << endl;
 }
+
+// output
+// Mean value : 32.5

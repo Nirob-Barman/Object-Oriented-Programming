@@ -1,4 +1,5 @@
-#include <iostream>
+// a sample program to demonstrate how friend functions works as bridge between the classes
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -46,3 +47,6 @@ int main()
 
     maxValue(xyz, abc);
 }
+
+// output
+// The max value is : 20

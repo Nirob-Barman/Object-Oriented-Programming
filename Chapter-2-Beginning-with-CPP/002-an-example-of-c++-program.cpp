@@ -29,11 +29,11 @@ int main()
 }
 
 // input
-// Enter the current year then press RETURN. 
+// Enter the current year then press RETURN.
 // 2023
-// Enter your current age in years. 
+// Enter your current age in years.
 // 26
-// Enter the year for which you wish to know your age. 
+// Enter the year for which you wish to know your age.
 // 1999
 
 // output

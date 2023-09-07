@@ -1,4 +1,5 @@
-#include <iostream>
+// a sample program that shows how to use common friend function to exchange the private values of two classes
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -61,3 +62,11 @@ int main()
     C1.displayData();
     C2.displayData();
 }
+
+// output
+// Values before exchange
+// 100
+// 200
+// Values after exchange
+// 200
+// 100
