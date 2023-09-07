@@ -1,6 +1,8 @@
+// A sample program to introduce how inline function works
 /**
 a c++ program to find the multiplication values and the cubic values using inline function
 **/
+
 #include <bits/stdc++.h>
 
 using namespace std;

@@ -1,3 +1,4 @@
+// A sample program to introduce ambiguity in default arguments
 #include <bits/stdc++.h>
 
 using namespace std;

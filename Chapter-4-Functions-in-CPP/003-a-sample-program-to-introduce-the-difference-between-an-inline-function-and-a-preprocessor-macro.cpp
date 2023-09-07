@@ -1,3 +1,4 @@
+// A sample program to introduce the difference between an inline function and a preprocessor macro
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -20,4 +21,3 @@ int main()
 // output
 // x = 2
 // y = 2
-

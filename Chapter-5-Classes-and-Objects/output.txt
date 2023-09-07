@@ -1,6 +1,0 @@
-Values before exchange
-100
-200
-Values after exchange
-200
-100
