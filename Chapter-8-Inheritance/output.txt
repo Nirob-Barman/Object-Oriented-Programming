@@ -1,0 +1,8 @@
+Getting the radius of the circle:
+Enter the radius of the circle: The area of the circle is: 3.14
+
+Getting the length and breadth of the rectangle:
+Enter the length: Enter the breadth: The area of the rectangle is: 6
+
+Getting the radius and length of the cylinder:
+Enter the radius of the circle: Enter the length: The volume of the cylinder is: 6.28
