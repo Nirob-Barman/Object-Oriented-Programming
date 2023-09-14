@@ -6,3 +6,6 @@
 006-a-sample-program-to-introduce-single-inheritance-with-private-access
 007-a-sample-program-to-introduce-multiple-inheritance
 008-a-sample-program-to-introduce-multiple-inheritance
+009-a-sample-program-to-introduce-hierarchical-inheritance
+010-a-sample-program-to-introduce-multilevel-inheritance
+011-a-sample-program-to-introduce-multilevel-inheritance

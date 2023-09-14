@@ -1,0 +1,2 @@
+lNo();
+        displayMarks();
