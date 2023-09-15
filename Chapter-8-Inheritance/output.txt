@@ -1,3 +1,5 @@
-Enter the value of b: Enter the value of d1: Enter the value of d2: b = 5
-d1 = 10
-d2 = 15
+Roll Number: 101
+Subject 1 Marks: 90
+Subject 2 Marks: 80
+Score: 90
+Total Marks: 260
