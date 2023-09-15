@@ -1,7 +1,7 @@
 Beta constructor called
 Alpha constructor called
 Gamma constructor called
-x: 30
-y: 40
-m: 50
-n: 60
+x: 8
+p: 6 q: 12
+u: 6
+v: 5
