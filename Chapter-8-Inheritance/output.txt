@@ -1,5 +1,2 @@
-Roll Number: 101
-Subject 1 Marks: 90
-Subject 2 Marks: 80
-Score: 90
-Total Marks: 260
+Length: 10 Width: 20 Height: 30
+Area: 6000

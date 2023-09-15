@@ -11,3 +11,5 @@
 011-a-sample-program-to-introduce-multilevel-inheritance
 012-a-sample-program-to-introduce-hybrid-inheritance
 013-a-sample-program-to-introduce-virtual-base-class
+014-a-sample-program-to-introduce-virtual-base-class
+015-a-sample-example-program-to-introduce-virtual-base-class
