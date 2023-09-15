@@ -1,2 +1,7 @@
-Length: 10 Width: 20 Height: 30
-Area: 6000
+Beta constructor called
+Alpha constructor called
+Gamma constructor called
+x: 30
+y: 40
+m: 50
+n: 60
