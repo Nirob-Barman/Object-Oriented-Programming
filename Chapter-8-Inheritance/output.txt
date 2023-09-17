@@ -1,4 +1,4 @@
-Constructing Base
-Constructing Derived
-Destructing Derived
-Destructing Base
+Calculating the area of rectangle
+Enter the radius: Enter the height: Enter the width: The area of rectangle is: 20
+The area of isosceles is: 10
+The area of cylinder is: 164.85
