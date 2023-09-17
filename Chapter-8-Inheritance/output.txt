@@ -1,7 +1,4 @@
-Beta constructor called
-Alpha constructor called
-Gamma constructor called
-x: 8
-p: 6 q: 12
-u: 6
-v: 5
+Constructing Base
+Constructing Derived
+Destructing Derived
+Destructing Base

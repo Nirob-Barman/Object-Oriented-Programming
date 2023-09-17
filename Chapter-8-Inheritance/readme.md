@@ -15,3 +15,6 @@
 015-a-sample-example-program-to-introduce-virtual-base-class
 016-a-sample-program-to-introduce-constructor-in-derived-class
 017-a-sample-program-to-introduce-initialization-and-assignment-sector-of-constructor
+018-a-sample-program-to-illustrate-when-base-class-and-derived-class-constructor-and-destructor-function-are-executed
+019-a-sample-program-to-illustrate-when-base-class-and-derived-class-constructor-and-destructor-function-are-executed
+020-given-the-following-base-class-areaCalculate-Create-three-derived-classes-called-rectangle-isosceles-and-cylinder-that-inherit-areaCalculate-Have-each-class-include-a-function-named-area-that-returns-the-area-of-a-rectangle-isosceles-triagnle-as-appropriate-Use-parameterized-constructors-initialized-height-and-width-Complete-the-program
