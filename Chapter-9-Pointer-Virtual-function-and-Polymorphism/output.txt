@@ -1,4 +1,2 @@
-Input code and price for item: 1Input code and price for item: 2Item: 1
-Code: 101 Price: 10.5
-Item: 2
-Code: 102 Price: 20.25
+Base object x: 10
+Derived object y: 30
