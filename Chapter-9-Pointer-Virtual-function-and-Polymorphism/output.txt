@@ -1,2 +1,1 @@
-Base object x: 10
-Derived object y: 30
+10
