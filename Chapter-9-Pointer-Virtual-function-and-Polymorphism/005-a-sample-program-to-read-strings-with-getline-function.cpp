@@ -24,12 +24,12 @@ int main()
 
 // input
 // Enter city names: NewYork
-// Enter city name again: 
+// Enter city name again:
 // Los Angeles
 // Enter another city name: San Francisco
 
 // output
 // City name: NewYork
-// City name now: 
+// City name now:
 // Los Angeles
 // New city name: San Francisco
