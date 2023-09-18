@@ -1,1 +1,2 @@
-10
+Input Text: abc
+Number of Characters: 3
