@@ -5,3 +5,4 @@
 005-a-sample-program-to-read-strings-with-getline-function
 006-a-sample-program-to-write-strings-with-write-function
 007-a-sample-program-to-demonstrate-how-the-function-width-works
+008-a-sample-program-that-shows-how-the-function-width-and-precision-are-jointly-used-to-control-the-output-format

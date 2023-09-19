@@ -29,3 +29,37 @@
 11. A sample program to demonstrate how friend functions works as bridge between the classes
 12. A sample program that shows how to use common friend function to exchange the private values of two classes
 #### Chapter 6 Constructor and Destructor Functions
+1. a sample program to introduce parameterized constructor
+2. a sample program to introduce multiple constructors in a class
+3. a sample program to introduce constructors with default arguments
+4. a sample program to introduce dynamic initialization of objects
+5. a sample program to introduce copy constructor
+6. a sample program to introduce in what sequence the constructor and destructor functions are called when you create more than one object
+#### Chapter 7 Operator Overloading
+1. a sample program to overload unary opeations using member operator function
+2. a sample program to overload binary operators using member operator function
+3. a sample program to introduce when friend function is compulsory
+4. a sample program to introduce when friend function cannot be used to overload = operator
+5. a sample program to overload + - * / operator to add subtract multiply and divide two float type objects
+6. Design a class which describe a point in the plane using polar coordinate radius and angle.Use the overload + operator to add two objects of polar
+#### Chapter 8 Inheritance
+1. a sample program to illustrate public inheritance
+2. a sample program to illustrate private inheritance
+3. a sample program to illustrate private inheritance
+4. a sample program to illustrate overriding the member functions
+5. a sample program to introduce single inheritance with public access
+6. a sample program to introduce single inheritance with private access
+7. a sample program to introduce multiple inheritance
+8. a sample program to introduce multiple inheritance
+9. a sample program to introduce hierarchical inheritance
+10. a sample program to introduce multilevel inheritance
+11. a sample program to introduce multilevel inheritance
+12. a sample program to introduce hybrid inheritance
+13. a sample program to introduce virtual base class
+14. a sample program to introduce virtual base class
+15. a sample example program to introduce virtual base class
+16. a sample program to introduce constructor in derived class
+17. a sample program to introduce initialization and assignment sector of constructor
+18. a sample program to illustrate when base class and derived class constructor and destructor function are executed
+19. a sample program to illustrate when base class and derived class constructor and destructor function are executed
+20. given the following base class areaCalculate Create three derived classes called rectangle isosceles and cylinder that inherit areaCalculate Have each class include a function named area that returns the area of a rectangle isosceles triagnle as appropriate Use parameterized constructors initialized height and width Complete the program
