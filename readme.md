@@ -2,6 +2,8 @@
 1. A sample program to understand the basic structure of C++
 2. an example of c++ program
 #### Chapter 2 Beginning with C++
+1. a sample program to understand the basic structure of C++
+2. an example of c++ program
 #### Chapter 3 Tokens Expressions and Control Structures
 #### Chapter 4 Functions in C++
 1. A sample program to introduce the working of call of call by value
