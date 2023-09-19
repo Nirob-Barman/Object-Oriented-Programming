@@ -1,6 +1,2 @@
-Items:   Cost:   Total Value: 
-   10       75             750
-    8      100             800
-   12       60             720
-   15       90            1350
-Grand Total: 3620
+Derived 1
+Derived 2
