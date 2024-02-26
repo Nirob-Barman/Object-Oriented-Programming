@@ -10,5 +10,5 @@ one = MyClass()
 two = MyClass(5)
 
 # Displaying the results
-print("one.x = ", one.get_x())
-print("two.x = ", two.get_x())
+print("one.x = ", one.get_x()) # 0
+print("two.x = ", two.get_x()) # 5

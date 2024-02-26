@@ -24,8 +24,8 @@ C = add_complex_numbers(one, two)
 
 # Displaying the result
 print("A = ", end="")
-show_complex_number(one)
+show_complex_number(one) # 3.1 + 5.65i
 print("B = ", end="")
-show_complex_number(two)
+show_complex_number(two) # 1.6 + 0.00i
 print("C = ", end="")
-show_complex_number(C)
+show_complex_number(C) # 5.7 + 5.65i

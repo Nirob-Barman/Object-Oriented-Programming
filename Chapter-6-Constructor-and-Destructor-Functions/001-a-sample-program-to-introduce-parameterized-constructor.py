@@ -8,4 +8,4 @@ class IntegerNumber:
     
 # Create an object of the class
 obj = IntegerNumber(10, 20)
-obj.display_integer_number()
+obj.display_integer_number() # Output: m = 10 and n = 20

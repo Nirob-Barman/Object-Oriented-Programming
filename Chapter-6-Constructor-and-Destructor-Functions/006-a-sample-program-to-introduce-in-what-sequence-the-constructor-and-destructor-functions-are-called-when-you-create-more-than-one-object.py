@@ -8,15 +8,20 @@ class A:
         print("Destructing Object.......")
 
 # Creating global object
-ob = A()
+ob = A() # Constructing Object
 
 if __name__ == '__main__':
     # Creating objects
-    obj1 = A()
-    obj2 = A(10, 10)
-    print("\n.......")
+    obj1 = A() # Constructing Object
+    obj2 = A(10, 10) # Constructing Object
+    print(".......")
 
     # Creating a local object
-    obj3 = A()
+    obj3 = A() # Constructing Object
     print("Local Object")
-    print(".......\n")
+    print(".......")
+
+    # Destructing objects
+    # Destructing objects
+    # Destructing objects
+    # Destructing objects

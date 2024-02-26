@@ -21,8 +21,8 @@ C.copy_constructor(A)
 
 # Displaying the results
 print("Id of A = ", end="")
-A.display_code()
+A.display_code() # 100
 print("Id of B = ", end="")
-B.display_code()
+B.display_code() # 100
 print("Id of C = ", end="")
-C.display_code()
+C.display_code() # 100
