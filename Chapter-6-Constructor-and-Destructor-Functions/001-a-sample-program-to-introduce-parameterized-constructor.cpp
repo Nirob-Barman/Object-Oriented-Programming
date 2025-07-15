@@ -8,19 +8,24 @@ class integerNumber
     int m, n;
 
 public:
-    integerNumber(int, int);
-    void displayIntegerNumber()
+    // integerNumber(int, int); // Parameterized constructor declaration
+    integerNumber(int x, int y)
+    {
+        m = x;
+        n = y;
+    }
+    void displayIntegerNumber() // Member function to display m and n
     {
         cout << "m = " << m << endl;
         cout << "n = " << n << endl;
     }
 };
 
-integerNumber::integerNumber(int x, int y)
-{
-    m = x;
-    n = y;
-}
+// integerNumber::integerNumber(int x, int y)
+// {
+//     m = x;
+//     n = y;
+// }
 
 int main()
 {
