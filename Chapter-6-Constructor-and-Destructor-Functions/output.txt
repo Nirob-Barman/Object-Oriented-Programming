@@ -1,1 +1,17 @@
-Area of rectangle = 12
+Constructor called: Default constructor
+Constructor called: Default constructor
+Constructor called: Parameterized constructor
+
+
+--- Entering inner block ---
+
+Constructor called: Default constructor
+Inside inner block
+Destructor called for object with values: a = 10, b = 10
+
+--- Exiting inner block ---
+
+
+Destructor called for object with values: a = 10, b = 10
+Destructor called for object with values: a = 10, b = 10
+Destructor called for object with values: a = 10, b = 10

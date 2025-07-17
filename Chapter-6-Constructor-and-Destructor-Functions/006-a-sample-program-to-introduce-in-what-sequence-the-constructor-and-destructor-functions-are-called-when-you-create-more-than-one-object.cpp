@@ -10,19 +10,19 @@ class A
 public:
     A()
     {
-        cout << "Constructing Object without........" << endl;
+        cout << "Constructor called: Default constructor" << endl;
         a = 10;
         b = 10;
     }
     A(int _a, int _b)
     {
-        cout << "Constructing Object........" << endl;
+        cout << "Constructor called: Parameterized constructor" << endl;
         a = _a;
         b = _b;
     }
     ~A()
     {
-        cout << "Destructing Object........" << endl;
+        cout << "Destructor called for object with values: a = " << a << ", b = " << b << endl;
     }
 };
 
@@ -31,12 +31,12 @@ int main()
 {
     A ob1, ob2(10, 10);
     cout << endl;
-    cout << "........." << endl;
+    cout << "\n--- Entering inner block ---\n" << endl;
     {
         A ob3;
-        cout << "Local Object" << endl;
+        cout << "Inside inner block" << endl;
     }
-    cout << "........." << endl;
+    cout << "\n--- Exiting inner block ---\n"<< endl;
     cout << endl;
     return 0;
 }
