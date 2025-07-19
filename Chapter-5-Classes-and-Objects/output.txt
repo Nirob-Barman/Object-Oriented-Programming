@@ -1,2 +1,6 @@
-10
-99
+Object x : 
+Number: 100
+Cost: 299.95
+Object y : 
+Number: 200
+Cost: 175.5

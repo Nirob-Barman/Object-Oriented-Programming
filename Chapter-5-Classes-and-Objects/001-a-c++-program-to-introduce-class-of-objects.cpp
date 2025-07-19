@@ -10,7 +10,12 @@ class item
     float cost;
 
 public:
-    void getData(int a, float b);
+    // void getData(int a, float b);
+    void getData(int a, float b)
+    {
+        number = a;
+        cost = b;
+    }
     void putData(void)
     {
         cout << "Number: " << number << endl;
@@ -21,11 +26,11 @@ public:
 /**
 Member function definition
 **/
-void item::getData(int a, float b) /// use membership label
-{
-    number = a; /// private variables
-    cost = b;   /// directly used
-}
+// void item::getData(int a, float b) /// use membership label
+// {
+//     number = a; /// private variables
+//     cost = b;   /// directly used
+// }
 
 /**
 main program
