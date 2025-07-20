@@ -5,23 +5,33 @@ using namespace std;
 
 class myClass
 {
-    /// private to myClass
+    /// private by default
     int a;
 
 public:
-    void set_a(int number);
-    int get_a();
+    // void set_a(int number);
+    // int get_a();
+    void set_a(int number)
+    {
+        a = number;
+    }
+
+    // Define get_a() inside the class
+    int get_a()
+    {
+        return a;
+    }
 };
 
-void myClass::set_a(int number)
-{
-    a = number;
-}
+// void myClass::set_a(int number)
+// {
+//     a = number;
+// }
 
-int myClass::get_a()
-{
-    return a;
-}
+// int myClass::get_a()
+// {
+//     return a;
+// }
 
 int main()
 {
