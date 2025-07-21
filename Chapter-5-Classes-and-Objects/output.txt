@@ -1,2 +1,1 @@
-10
-99
+Input values of m and n is : Largest value = 5
