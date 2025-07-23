@@ -13,24 +13,24 @@ public:
         this->x = x;
         this->y = y;
     }
-    friend coOrdinate operator+(int i, coOrdinate ob);
-    // friend coOrdinate operator+(int i, coOrdinate ob)
-    // {
-    //     return coOrdinate(i + ob.x, i + ob.y);
-    // }
+    // friend coOrdinate operator+(int i, coOrdinate ob);
+    friend coOrdinate operator+(int i, coOrdinate ob)
+    {
+        return coOrdinate(i + ob.x, i + ob.y);
+    }
     void displayCoOrdinate()
     {
         cout << x << " " << y << endl;
     }
 };
 
-coOrdinate operator+(int i, coOrdinate ob)
-{
-    coOrdinate result;
-    result.x = i + ob.x;
-    result.y = i + ob.y;
-    return result;
-}
+// coOrdinate operator+(int i, coOrdinate ob)
+// {
+//     coOrdinate result;
+//     result.x = i + ob.x;
+//     result.y = i + ob.y;
+//     return result;
+// }
 
 // coOrdinate operator+(int i, coOrdinate ob)
 // {
