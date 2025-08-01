@@ -1,3 +1,5 @@
+# Inheritance
+
 1. a sample program to illustrate public inheritance
 2. a sample program to illustrate private inheritance
 3. a sample program to illustrate private inheritance
